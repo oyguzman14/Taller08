@@ -5,8 +5,7 @@ import java.util.Currency;
 import java.util.Locale;
 
 public class CuentaAdapter implements Cuenta {
-
-    protected Account cuenta;
+protected Account cuenta;
     protected Currency moneda;
 
     public CuentaAdapter(int id, double monto) {
@@ -43,3 +42,4 @@ public class CuentaAdapter implements Cuenta {
         this.cuenta = cuenta;
     }
 }
+
